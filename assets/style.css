@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*------------------------------My CSS starts here----------------------*/
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 18px !important;
+  color: #efefef !important;
+  background-image: url('../images/basic-port-background.jpg') !important;
+}
+
+header {
+  width: 100%;
+  background-color: #000;
+  margin-bottom: 25px;
+  border-bottom: .5rem solid #3399CC !important;
+}
+
+
+
+footer {
+  padding-top: 20px !important;
+  background-color: #000;
+  border-top: .5rem solid #3399CC !important;
+}
+
+a {
+  color: red !important;
+}
+
+form {
+  margin: 20px;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 18px !important;
+}
+
+h1 {
+    font-size: 2.2rem !important;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #efefef !important;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.row {
+  margin: 25px 0px 25px 0px;
+}
+
+.col-md-8 {
+  padding-right: 30px !important;
+}
+
+#logo {
+  min-width: 300px !important;
+}
+
+.navbar {
+  padding: 1rem 0rem .8rem 0rem !important;
+}
+
+.navbar-nav {
+  padding-bottom: 10px !important;
+}
+
+.nav-item {
+  color: white !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 18px !important;
+  border-right: 1px solid #efefef !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.nav-item:last-child {
+  border-right: 0 none !important;
+  padding-right: 0px !important;
+}
+
+.nav-link.active {
+  color: red !important;
+}
+
+.nav-link:hover {
+  color: red !important;
+}
+
+.text-light {
+  font-size: 10px;
+}
+
+.img-fluid {
+  padding: 5px 15px 5px 20px;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 16px !important;
+}
+
+.btn-primary {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 18px !important;
+  color: #000 !important;
+  background-color: #FFF !important;
+  border-color: red !important;
+}
+
+.btn-primary:hover {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 18px !important;
+  color: #000 !important;
+  background-color: red !important;
+  border-color: #FFF !important;
+  color: #FFF !important;
+}
+
+.footer-copyright {
+  color: #FFF;
+  font-size: 11px;
+}
+
+#page-title {
+  padding: 20px 0px 10px 0px !important;
+  margin: 0px 20px 0px 20px !important;
+  border-bottom: 2px solid #efefef !important;
+}
